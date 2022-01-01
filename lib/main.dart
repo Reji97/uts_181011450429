@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text(
             "REJI AINUROHIM ",
-            style: new TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+            style: new TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.blueAccent,
           centerTitle: true,
@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
         //backgroundColor: Colors.blue[100],
         body: Container(
           child: Padding(
-            padding: const EdgeInsets.only(top: 20.0),
+            padding: const EdgeInsets.only(top: 25.0),
             child: GridView.count(
               crossAxisCount: 3,
               children: <Widget>[
